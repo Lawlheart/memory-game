@@ -1,4 +1,7 @@
 <h1>Memory Game</h1>
+<div class="controls">
+  <app-controls></app-controls>
+</div>
 <div class="game-grid" *ngIf="cards.length > 0">
   <div class="card" *ngFor="let card of cards">
     <app-game-card [card]="card" (choose)="selectCard(card)"></app-game-card>
