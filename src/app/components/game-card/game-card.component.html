@@ -1,11 +1,10 @@
-<blaze-card>
-
-  <div class="card" (click)="flip()">
+<blaze-card (click)="flip()">
+  <blaze-card-body>
     <div class="back face" *ngIf="side === 'back'">
       <ion-icon name="help-circle"></ion-icon>
     </div>
     <div class="front face" *ngIf="side === 'front'" [class]="card.color">
       <ion-icon [name]="card.symbol"></ion-icon>
     </div>
-  </div>
+  </blaze-card-body>
 </blaze-card>

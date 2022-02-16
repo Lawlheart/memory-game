@@ -17,5 +17,14 @@ export const cardset = [
   }, {
     symbol: 'paw',
     color: 'purple'
+  }, {
+    symbol: 'flask',
+    color: 'teal'
+  }, {
+    symbol: 'hourglass',
+    color: 'pink'
+  }, {
+    symbol: 'rocket',
+    color: 'silver'
   }
 ]

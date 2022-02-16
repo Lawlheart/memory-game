@@ -1,6 +1,6 @@
 @import '../../styles/colors';
 
-.card {
+:host {
   cursor: pointer;
   .red ion-icon {
     color: $red;
@@ -19,6 +19,18 @@
   }
   .purple ion-icon {
     color: $purple;
+  }
+  .pink ion-icon {
+    color: $pink;
+  }
+  .teal ion-icon {
+    color: $teal;
+  }
+  .gold ion-icon {
+    color: $gold;
+  }
+  .silver ion-icon {
+    color: $silver;
   }
 }
 

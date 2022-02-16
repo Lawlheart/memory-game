@@ -15,6 +15,10 @@ export class GameGridComponent implements OnInit {
     
   }
 
+  selectCard(card: GameCard) {
+    console.log(card)
+  }
+
   ngOnInit(): void {
   }
 
