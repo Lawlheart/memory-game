@@ -7,7 +7,7 @@ import { GameCard } from 'src/app/models/game';
   styleUrls: ['./game-card.component.scss']
 })
 export class GameCardComponent implements OnInit {
-  @Input() card: GameCard;
+  @Input() card: GameCard = {symbol: 'heart', color: 'red'};
   @Output() choose = new EventEmitter();
   side = 'back'
 
