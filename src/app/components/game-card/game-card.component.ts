@@ -8,7 +8,7 @@ import { GameCard } from 'src/app/models/game';
 })
 export class GameCardComponent implements OnInit {
   @Input() card: GameCard = {symbol: 'heart', color: 'red'};
-  @Output() choose = new EventEmitter();
+  @Output() choose = new EventEmitter<GameCard>();
   side = 'back'
 
   constructor() { }
