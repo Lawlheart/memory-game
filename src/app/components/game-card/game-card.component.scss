@@ -1,0 +1,28 @@
+@import '../../styles/colors';
+
+.card {
+  cursor: pointer;
+  .red ion-icon {
+    color: $red;
+  }
+  .orange ion-icon {
+    color: $orange;
+  }
+  .yellow ion-icon {
+    color: $yellow;
+  }
+  .green ion-icon {
+    color: $green;
+  }
+  .blue ion-icon {
+    color: $blue;
+  }
+  .purple ion-icon {
+    color: $purple;
+  }
+}
+
+ion-icon {
+  height: 8rem;
+  width: 8rem;
+}
